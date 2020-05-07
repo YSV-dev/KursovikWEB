@@ -1,0 +1,144 @@
+.centralBlock{
+	margin: 2.5em auto 0px ;
+	height:100%;
+	width: 100%;
+	max-width: 960px;
+	box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
+}
+
+.navButton, 
+.navButton:active, 
+.navButton:focus {
+    outline: none;
+}
+
+.navButton:hover {
+	text-shadow: #34c5fa 0 0 15px;
+	color: #9ee5ff;
+}
+
+.navButton:active {
+	text-shadow: #4d40ff 0 0 5px;
+	color: #4d40ff;
+}
+
+.navButton{
+	text-shadow: black 0 0 5px;
+	color: white;
+	font-family: 'Bauhaus 93', "Times New Roman", Georgia, Serif;
+	font-size: 15px;
+	height: 50px;
+	width: 25%;
+	#border-width: 5px 0px 5px 0px;
+	background: linear-gradient(180deg, rgba(215,215,215,1) 0%, rgb(163, 163, 163,1) 50%, rgba(215,215,215,1) 100%);
+	position:relative;
+	height:50px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.navButtonDiv>.navButton:first-child{
+	border-radius: 0px 0px 0px 0px;
+	#border-width: 5px 0px 5px 5px;
+}
+.navButtonDiv>.navButton:nth-child(4){
+	border-radius: 0px 0px 0px 0px;
+	#border-width: 5px 5px 5px 0px;
+}
+
+.navButtonDiv{
+	border-radius: 25px 0px 25px 0px;
+	left:-1px;
+	width: 99.1%;
+	padding-bottom: 35px;
+	background:linear-gradient(180deg, rgba(215,215,215,1) 0%, rgb(163, 163, 163,1) 50%, rgba(215,215,215,1) 100%);
+	padding: 0px;
+	position: relative;
+	top: -50px;
+	display:inline-block;
+	white-space: nowrap;
+}
+
+.ApplyButton{
+	margin: 5px;
+	text-shadow: black 0 0 5px;
+	color: white;
+	font-family: 'Bauhaus 93', "Times New Roman", Georgia, Serif;
+	font-size: 15px;
+	width: 25%;
+	border-width: 5px 5px 5px 5px;
+	background: linear-gradient(180deg, rgba(215,215,215,1) 0%, rgb(163, 163, 163,1) 50%, rgba(215,215,215,1) 100%);
+	position:relative;
+	height:35px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+label{
+	text-shadow: black 0 0 5px;
+	color: white;
+	font-family: 'Bauhaus 93', "Times New Roman", Georgia, Serif;
+	font-size: 18px;
+}
+
+.smallLabel{
+	text-shadow: black 0 0 5px;
+	color: white;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 15px;
+}
+
+.enterLinks{
+	font-family: 'Bauhaus 93', arial, sans-serif;
+	color: white;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+#MainCaption{
+	font-family: 'Bauhaus 93', arial, sans-serif;
+	font-size: 72px;
+	background-image: linear-gradient(to bottom, rgb(186, 186, 186), rgb(192, 192, 192), rgb(199, 199, 199), rgb(205, 205, 205), rgb(211, 211, 211), rgb(217, 217, 217), rgb(224, 224, 224), rgb(230, 230, 230), rgb(236, 236, 236), rgb(242, 242, 242), rgb(249, 249, 249), rgb(255, 255, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#headerHead {
+	background-image: linear-gradient(to top left, rgb(0, 0, 0), rgb(51, 0, 31), rgb(102, 0, 61), rgb(153, 0, 92), rgb(204, 0, 122), rgb(255, 0, 153), rgb(239, 40, 170), rgb(222, 80, 187), rgb(206, 120, 204), rgb(189, 159, 221), rgb(173, 199, 238), rgb(156, 239, 255)); 
+	
+	padding: 5px 15px 40px 70px;
+}
+nav{
+	background: transparent;
+	border: 1px solid #ccc; 
+	height: 0px;
+}
+
+.mainList{
+	background: white;
+	border: 1px solid #ccc;
+	position: relative;
+	padding: 35px;
+}
+
+footer{
+	position: relative;
+	background-image: linear-gradient(rgb(186, 186, 186), rgb(255, 255, 255));
+	border: 1px solid #ccc;
+	height: 75px;
+}
+
+.footerContent{
+	position:relative;
+	margin: 15px;
+}
+
+body{
+	background-image: linear-gradient(to bottom, rgb(186, 186, 186), rgb(192, 192, 192), rgb(199, 199, 199), rgb(205, 205, 205), rgb(211, 211, 211), rgb(217, 217, 217), rgb(224, 224, 224), rgb(230, 230, 230), rgb(236, 236, 236), rgb(242, 242, 242), rgb(249, 249, 249), rgb(255, 255, 255));
+}
+
+p {
+    text-indent: 20px;
+   }
